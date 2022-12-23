@@ -4,65 +4,132 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum Vitae</title>
+    <title>Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="photo/fahim.jpg" alt ="Fahim Al Islam" width="200" height="200">
-    <h3>Fahim Al Islam</h3>
-    <h4> mail : alfahim.ru@gmail.com</h4>
-    <h4><a href="https://www.linkedin.com/checkpoint/challenge/AgGN2MQMqWPzsgAAAYUGdgLlXbeGtM2btxaSvuUpgXLkJjxqCJhXaK5FE8TDAefwipQCbqfqCLiP11H6bizMPxLM6XWhVw?pageInstance=urn%3Ali%3Apage%3Ad_checkpoint_rp_requestPasswordReset%3B%2FdwG16sfRTa6UYlkGRpMeQ%3D%3D&ut=10cpDFENNnWWw1" target="blank">Linkdin</a></h4>
-    <br>
-    <h3>Education:</h3>
-    <table border="1px">
-        <tr>
-            <th>Exam</th>
-            <th>Year</th>
-            <th>Board</th>
-            <th>grade</th>
-        </tr>
-        <tr>
-            <td>SSC</td>
-            <td>2017</td>
-            <td>Dhaka</td>
-            <td>5.00</td>
-        </tr>
-        <tr>
-            <td>HSC</td>
-            <td>2019</td>
-            <td>Dhaka</td>
-            <td>4.67</td>
-        </tr>
-    </table>
-    <h3>Skills : </h3>
-    <ul>
-        <li><h4> Programming Languagess</h4></li>
-        <ul>
-            <li>C++</li>
-            <li>Java</li>
-            <li>C#</li>
-        </ul>
-        <li><h4>Frontend</h4></li>
-         <ul>
-            <li>Html</li>
-         </ul>
-         <li><h4>Version Control</h4></li>
-         <ul>
-            <li>git</li>
-         </ul>
-    </ul>
-    <h3>Projects</h3>
-    <h4>Advanture Warrior Game </h4>
-    <ul>
-        <li>Used unity game engine for creating 3d game world and animation.</li>
-        <li>Used C# Languages</li>
-        <li>Used ilastator for creating graphics</li>
-    </ul>
-    <h3>Hobbies</h3>
-    <ul>
-        <li>Cricket</li>
-        <li>Chess</li>
-        <li>Watching Movies</li>
-    </ul>
-    <h4></h4>
+    <div class="container">
+        <div class="left-side">
+            <div class="profile">
+                <div class="imgs"><img src="/photo/fahim.jpg" width="200" height="200"></div>
+                <h2 class="name">Fahim Al Islam</h2>
+            </div>
+            <div>
+                <h3 class="contact"> Contact Info</h3>
+                <ul>
+                    <li>
+                    <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i>
+                    </span>
+                    <span class="txt">alfahim.ru@gmail.com</span>
+                   </li>
+                </ul>
+            </div>
+            <div class="Education">
+                <h3 class="edu">Education</h3>
+                <table class="tbl" border="1px">
+                    <tr>
+                        <th>Exam</th>
+                        <th>Year</th>
+                        <th>Board</th>
+                        <th>grade</th>
+                    </tr>
+                    <tr>
+                        <td>SSC</td>
+                        <td>2017</td>
+                        <td>Dhaka</td>
+                        <td>5.00</td>
+                    </tr>
+                    <tr>
+                        <td>HSC</td>
+                        <td>2019</td>
+                        <td>Dhaka</td>
+                        <td>4.67</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="lang">
+                <h3 class="languages">Programming languages</h3>
+                <ul>
+                    <li>
+                        <span class="c++">C++</span>
+                        <span class="percent"><div style="width : 95%;"></div></span>
+                    </li>
+                    <li>
+                        <span class="c++">Java</span>                       
+                        <span class="percent"><div style="width : 60%;"></div></span>
+                    </li>
+                    <li>
+                        <span class="c++">C#</span>
+                        <span class="percent"><div style="width : 50%;"></div></span>
+                    </li>
+                    <li>
+                        <span class="c++">Python</span>
+                        <span class="percent"><div style="width : 40%;"></div></dspan>
+                    </li>
+                    <li>
+                        <span class="c++">Html</span>
+                        <span class="percent"><div style="width : 90%;"></div></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="hobies">
+                <h3 class="hob"> Hobies</h3>
+                <ul>
+                    <li>
+                        <span class="gmeicon"><i class="fa fa-gamepad" aria-hidden="true"></i>
+                        </span>
+                        <span class="game">Gaming</span>
+                       
+                    </li>
+                    <li>
+                        <span class="movie"><i class="fa fa-film" aria-hidden="true"></i>
+                        </span>
+                        <span class="mv">Watching Movie</span>
+                       
+                    </li>
+                    <li>
+                        <span class="travel"><i class="fa fa-plane" aria-hidden="true"></i>
+                        </span>
+                        <span class="Travel">Traveling</span>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+       
+        <div class="right-side">
+            <h2 class="myself" > ABOUT MYSELF</h2>
+            <p class="para">
+                I'm Fahim Al Islam. I'm studying in university of Rajshahi department of computer science & engineering. I'm highly dedicated in competetive programming.
+                I have some experience in game development. I have interest in machine learning and artificial intelligence.
+            </p>
+            <div class="skill">
+                <h2 class="title">Skills</h2>
+                <div class="box">
+                    <h4>Competetive Programming</h4>
+                    <div class="parcent">
+                        <div style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Game Development</h4>
+                    <div class="parcent">
+                        <div style="width: 40%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <h3>Projects</h3>
+                <h4>Advanture Warrior Game </h4>
+                <ul>
+                    <li>Used unity game engine for creating 3d game world and animation.</li>
+                    <li>Used C# Languages</li>
+                    <li>Used ilastator for creating graphics</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
 </body>
 </html>
